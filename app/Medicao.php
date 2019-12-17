@@ -8,6 +8,6 @@ class Medicao extends Model
 {
 	protected $table="medicaos";
     protected $fillable = [
-        'valor', 'data_horario'
+        'valor', 'data_horario', 'sensor_id'
     ];
 }
