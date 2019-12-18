@@ -9,8 +9,8 @@ filipe:
 	git config --global user.name "filipeandrev"
 	git config --global user.email filipe.andrev7@gmail.com
 conf:
-	composer install --no-scripts
-	cp .env.example .env # copia o example
-	php artisan key:generate # gera a chave
+	@composer install --no-scripts
+	@cp .env.example .env # copia o example
+	@php artisan key:generate # gera a chave
 	
 
